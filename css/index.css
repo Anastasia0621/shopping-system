@@ -1,0 +1,366 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    float: left;
+    width: 12px;
+    height: 12px;
+    /*background-color: #fff;*/
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    /*????????*/
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 100%;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.news .news-hd {
+    height: 34px;
+    line-height: 34px;
+    padding-left: 15px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.news-hd h3 {
+    float: left;
+}
+
+.news-hd a {
+    float: right;
+    padding: 0 10px;
+}
+
+.news-hd a::after {
+    font-family: 'icomoon';
+    content: '\e920';
+    padding-left: 5px;
+}
+
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    padding-top: 5px;
+    padding-left: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    position: relative;
+    float: left;
+    width: 63px;
+    height: 71px;
+    text-align: center;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.lifeservice ul li img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+
+.bargain {
+    margin-top: 5px;
+}
+
+/* ÍÆ¼öÄ£¿é */
+.recom {
+    height: 163px;
+    margin-top: 12px;
+}
+
+.recom_hd {
+    float: left;
+    width: 206px;
+    height: 163px;
+    text-align: center;
+    line-height: 163px;
+    background-color: #5c5251;
+}
+
+.recom_bd {
+    float: left;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom_bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+
+.recom_bd ul li:not(:last-child)::after {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    content: '';
+    width: 1px;
+    height: 145px;
+    background-color: #dddddd;
+}
+
+.guess {
+    height: 275px;
+    margin-top: 15px;
+}
+
+.guess_hd {
+    height: 35px;
+}
+
+.guess_hd h4 {
+    float: left;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.guess_hd a p {
+    float: right;
+    font-size: 12px;
+    color: #666;
+    padding-right: 10px;
+}
+
+.guess_hd a p::after {
+    font-family: "icomoon";
+    content: "\ea2e";
+    padding: 0 5px;
+}
+
+.guess_bd {
+    height: 235px;
+    border: 1px solid #e4e4e4;
+}
+
+.guess_bd ul li {
+    float: left;
+    width: 199px;
+}
+
+.guess_bd ul li .pic {
+    display: block;
+    height: 150px;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 150px;
+}
+
+.guess_bd .info {
+    height: 65px;
+    padding: 0 35px;
+}
+
+.guess_bd .info {
+    border-right: 1px solid #e4e4e4;
+}
+
+.guess_bd .last {
+    border-right: 0;
+}
+
+.guess_bd .info h4 {
+    font-size: 12px;
+    color: #666;
+    font-weight: 400;
+}
+
+.guess_bd .info .price {
+    font-size: 18px;
+    color: #df3033;
+}
+
+.box_hd {
+    height: 30px;
+    margin: 15px 0 0 0;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h4 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.box_hd .tab_list {
+    float: right;
+
+}
+
+.box_hd .tab_list ul li {
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+    color: #666;
+}
+
+.box_hd .tab_list ul li a {
+    padding: 0 15px;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+    line-height: 34px;
+    margin-left: 15px;
+    font-size: 12px;
+    color: #666;
+
+}
+
+.col_326 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ededed;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.borb {
+    display: block;
+}
+
+.borb,
+.col_221,
+.col_219 {
+    border-bottom: 1px solid #ededed;
+}
+
+.fixed {
+    position: fixed;
+    width: 66px;
+    height: 350px;
+    top: 30%;
+    right: 50%;
+    margin-right: 615px;
+    transition: all 0.8s;
+}
+
+.fixed ul li a {
+    display: block;
+    width: 66px;
+    height: 32px;
+    font-size: 12px;
+    line-height: 32px;
+    text-align: center;
+    border-bottom: 1px solid #ededed;
+}
+
+.fixed ul a:hover {
+    color: #fff;
+    background-color: #c81623;
+    transition: all 0.8s;
+}
